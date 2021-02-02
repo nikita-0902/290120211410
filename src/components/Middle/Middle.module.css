@@ -1,0 +1,109 @@
+.third {
+    position: absolute;
+    width: 451px;
+    height: 18.75px;
+    left: 19px;
+    top: 319px;
+}
+
+.text1 {
+    position: absolute;
+    width: 183px;
+    height: 16px;
+    left: 1px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+}
+
+.reviews {
+    position: absolute;
+    width: 99px;
+    height: 16px;
+    left: 163px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #005DA1;
+}
+
+.nb {
+    position: absolute;
+    width: 21px;
+    height: 15px;
+    left: 379px;
+    top: 2px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: #333333;
+}
+
+.heart {
+    position: absolute;
+    width: 11.99px;
+    height: 10.75px;
+    left: 363px;
+    top: 5px;
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.9);
+    background: radial-gradient(circle at 60% 65%, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top left, radial-gradient(circle at 40% 65%, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top right, -webkit-gradient(linear, right top, left bottom, color-stop(43%, rgba(255, 255, 255, 0.9)), color-stop(43%, transparent)) bottom left, -webkit-gradient(linear, left top, right bottom, color-stop(43%, rgba(255, 255, 255, 0.9)), color-stop(43%, transparent)) bottom right;
+    background: -o-radial-gradient(60% 65%, circle, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top left, -o-radial-gradient(40% 65%, circle, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top right, -o-linear-gradient(top right, rgba(255, 255, 255, 0.9) 43%, transparent 43%) bottom left, -o-linear-gradient(top left, rgba(255, 255, 255, 0.9) 43%, transparent 43%) bottom right;
+    background: radial-gradient(circle at 60% 65%, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top left, radial-gradient(circle at 40% 65%, rgba(255, 255, 255, 0.9) 64%, transparent 65%) top right, linear-gradient(to bottom left, rgba(255, 255, 255, 0.9) 43%, transparent 43%) bottom left, linear-gradient(to bottom right, rgba(255, 255, 255, 0.9) 43%, transparent 43%) bottom right;
+}
+
+.comment {
+    position: absolute;
+    width: 13px;
+    height: 12.75px;
+    left: 418px;
+    top: 4px;
+}
+
+.nb1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 435px;
+    top: 2px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: #333333;
+}
+

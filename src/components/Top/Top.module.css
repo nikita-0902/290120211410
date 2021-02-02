@@ -1,0 +1,331 @@
+.main__container {
+    position: absolute;
+    width: 467px;
+    height: 124px;
+    left: 17px;
+    top: 14px;
+}
+
+.ava {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    top: 14px;
+    left: 0px;
+    position: relative;
+    z-index: 10000;
+}
+
+.text {
+    display: inline-block;
+}
+
+.name {
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 131px;
+    top: 21px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.prof {
+    position: absolute;
+    display: block;
+    width: 135px;
+    height: 20px;
+    left: 131px;
+    top: 43px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #808080;
+}
+
+.m_text {
+    position: absolute;
+    width: 333px;
+    height: 33px;
+    top: 78px;
+    left: 131px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+}
+
+.m_text_bg {
+    position: absolute;
+    width: 364px;
+    height: 54px;
+    top: 68px;
+    left: 86px;
+    background: #FFFBC8;
+    border: 1px solid #DADADA;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.second {
+    position: absolute;
+    width: 63px;
+    height: 15px;
+    left: 383px;
+    right: 23px;
+    top: 135px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height, or 115% */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+}
+
+.line {
+    position: absolute;
+    width: 317px;
+    height: 0px;
+    left: 130px;
+    right: 22px;
+    top: 157px;
+    border: 1px solid #DADADA;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.line1 {
+    position: absolute;
+    width: 76px;
+    left: 93px;
+    right: 339px;
+    top: 210px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.line2 {
+    position: absolute;
+    width: 317px;
+    height: 0px;
+    left: 131px;
+    right: 21px;
+    top: 264px;
+    border: 1px solid #DADADA;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.title1 {
+    position: absolute;
+    width: 134px;
+    height: 26px;
+    left: 137px;
+    top: 171px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    color: #333333;
+}
+
+.title2 {
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 137px;
+    top: 197px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    color: #333333;
+}
+
+.title3 {
+    position: absolute;
+    width: 38px;
+    height: 26px;
+    left: 137px;
+    top: 223px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    /* identical to box height, or 200% */
+    color: #333333;
+}
+
+.rect1 {
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    left: 131px;
+    top: 173px;
+    background: #B1E19B;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.rect2 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 131px;
+    top: 199px;
+    background: #ACE2F8;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.rect3 {
+    position: absolute;
+    width: 36px;
+    height: 24px;
+    left: 131px;
+    top: 225px;
+    background: #ACE2F8;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.numb1 {
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 368px;
+    right: 60px;
+    top: 177px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
+
+.numb2 {
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 370px;
+    right: 62px;
+    top: 202px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
+
+.numb3 {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 372px;
+    right: 62px;
+    top: 228px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
+
+.any_text {
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 131px;
+    top: 273px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.numb4 {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 372px;
+    top: 279px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
+
+@media all and (max-width:720px) {
+    .main__container {
+        width: none;
+    }
+}
+
+@media all and(max-width:480px) {
+    .main__container {
+        width: 420px;
+    }
+}
+@media all and(max-width:360px) {
+    .main__container {
+        width: 350px;
+    }
+
+}
+@media all and(max-width:320px) {
+    .main__container {
+        width: none;
+    }
+}
+
