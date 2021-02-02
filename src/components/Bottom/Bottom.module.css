@@ -24,7 +24,6 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
-    /* or 136% */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -296,6 +295,7 @@
     height: 46px;
     left: 41px;
     top: 648px;
+    font-size: 14px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -362,35 +362,37 @@ button {
     color: #333333;
 }
 
-@media all and (max-width:720px) {
-    .fourth {
-        width: none;
+
+@media only screen and (max-width:720px) {
+    .name1, .name2, .name3 {
+        font-size: 16px;
+    }
+    .date1 {
+        font-size: 15px;
+        left: 70px;
+    }
+    .date2, .date3 {
+        font-size: 15px;
+        left: 150px;
+    }
+    .comtext, .comtext1, .comtext2 {
+        font-size: 15px;
     }
 }
 
-@media all and(max-width:480px) {
-    .fourth {
-        width: none;
+@media only screen and (max-width:320px) {
+    .name1, .name2, .name3 {
+        font-size: 16px;
     }
-    .comment1 {
-        width: 400px;
+    .date1 {
+        font-size: 15px;
+        left: 70px;
     }
-}
-
-@media all and(max-width:360px) {
-    .fourth {
-        width: none;
+    .date2, .date3 {
+        font-size: 15px;
+        left: 150px;
     }
-    .comment1 {
-        width: 350px;
-    }
-}
-
-@media all and(max-width:320px) {
-    .fourth {
-        width: none;
-    }
-    .comment1 {
-        width: 300px;
+    .comtext, .comtext1, .comtext2 {
+        font-size: 16px;
     }
 }

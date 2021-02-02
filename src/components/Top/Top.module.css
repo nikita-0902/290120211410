@@ -305,27 +305,3 @@
     text-align: right;
     color: #333333;
 }
-
-@media all and (max-width:720px) {
-    .main__container {
-        width: none;
-    }
-}
-
-@media all and(max-width:480px) {
-    .main__container {
-        width: 420px;
-    }
-}
-@media all and(max-width:360px) {
-    .main__container {
-        width: 350px;
-    }
-
-}
-@media all and(max-width:320px) {
-    .main__container {
-        width: none;
-    }
-}
-

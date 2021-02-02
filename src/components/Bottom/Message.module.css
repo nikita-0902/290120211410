@@ -89,9 +89,7 @@ ul li {
     width: 391px;
     height: 22px;
     left: 20px;
-    /*     top: 788px;
- */
-    bottom: 11px;
+    bottom: 20px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -106,51 +104,20 @@ ul li {
     color: #333333;
 }
 
-@media all and (max-width:720px) {
-    ul li {
-        width: none;
-        height: none;
+@media only screen and (max-width:720px) {
+    .name4 {
+        font-size: 16px;
     }
-}
-
-@media all and(max-width:480px) {
-    ul li {
-        margin-bottom: 60px;
-        width: 450px;
-        height: 78px;
-    }
-}
-
-@media all and(max-width:360px) {
-    ul li {
-        margin-bottom: 50px;
-        width: 340px;
-        height: 70px;
-    }
-    .name4, .date4 {
-        width: 300px;
+    .date4 {
+        font-size: 15px;
+        left: 125px;
     }
     .triangle_ {
         height: 80px;
     }
     .comtext4 {
-        width: 300px;
+        font-size: 16px;
     }
 }
 
-@media (max-width:320px) {
-    ul li {
-        margin-bottom: 50px;
-        width: 300px;
-        height: 65px;
-    }
-    .name4, .date4 {
-        width: 290px;
-    }
-    .triangle_ {
-        height: 70px;
-    }
-    .comtext4 {
-        width: 290px;
-    }
-}
+@media only screen and (max-width:320px) {}
